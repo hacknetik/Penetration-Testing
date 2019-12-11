@@ -6,6 +6,6 @@ First of all, welcome to my repo. This repo consist of a bunch of informations/c
 
 Happy hacking!
 
-# -Hacknetik
+Hacknetik
 
 

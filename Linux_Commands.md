@@ -322,16 +322,6 @@ $ smbmount //server/share /mnt/win -o user=username,password=password1
 $ smbclient -U user \\\\server\\share
 $ mount -t cifs -o username=user,password=password //x.x.x.x/share /m
 ```
-
-# Breaking Out of Limited Shells
-
-**The Python trick:**
-```
-python -c 'import pty;pty.spawn("/bin/bash")'
-echo os.system('/bin/bash')
-/bin/sh -i
-```
-
 # Misc Commands
 
 `init 6` **Reboot Linux from the command line.**
